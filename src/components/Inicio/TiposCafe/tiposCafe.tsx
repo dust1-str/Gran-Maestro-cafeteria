@@ -1,4 +1,4 @@
-import './TiposCafe.css';
+import './tiposCafe.css';
 
 export default function TiposCafe() {
   const cafes = [
