@@ -1,0 +1,80 @@
+.tipos-cafe-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.tipos-cafe-header {
+  margin-bottom: 20px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.tipos-cafe-header h1 {
+  font-size: 2.5em;
+  color: #6b4f4f;
+}
+
+.tipos-cafe-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.cafe-card {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cafe-image {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.cafe-card h2 {
+  font-size: 1.5em;
+  color: #6b4f4f;
+  margin-bottom: 10px;
+}
+
+.cafe-card p {
+  font-size: 1em;
+  color: #4a4a4a;
+  line-height: 1.6;
+  text-align: left;
+  min-height: 60px;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
