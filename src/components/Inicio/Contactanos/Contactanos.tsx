@@ -1,4 +1,3 @@
-import React from 'react';
 import './Contactanos.css';
 
 export default function Contactanos() {
