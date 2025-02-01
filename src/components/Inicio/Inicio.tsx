@@ -4,7 +4,12 @@ export default function Inicio() {
   return (
     <div className="inicio-container">
       <div className="inicio-image-container">
-        <img src="/cafeteria.svg" alt="Café de Granos" className="inicio-image" />
+        <img
+          src="/cafeteria.webp"
+          alt="Café de Granos"
+          className="inicio-image"
+          loading="lazy"
+        />
         <div className="inicio-text">
           <header className="inicio-header">
             <h1>Bienvenidos a Grano Maestro</h1>

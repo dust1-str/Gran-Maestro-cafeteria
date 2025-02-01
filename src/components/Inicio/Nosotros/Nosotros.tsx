@@ -5,7 +5,11 @@ export default function Nosotros() {
     <div className="nosotros-container">
       <section className="nosotros-content">
         <div className="nosotros-image">
-          <img src="/about_us.svg" alt="Sobre Nosotros" />
+          <img
+           src="/about_us.webp"
+           alt="Sobre Nosotros"
+           loading='lazy'
+           />
         </div>
         <div className="nosotros-text">
           <header className="nosotros-header">
