@@ -8,7 +8,6 @@ export default function Inicio() {
           src="/cafeteria.webp"
           alt="Café de Granos"
           className="inicio-image"
-          loading="lazy"
         />
         <div className="inicio-text">
           <header className="inicio-header">

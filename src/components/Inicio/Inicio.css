@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: calc(100vh - 86px);
   width: 100vw;
   overflow: hidden;
   position: relative;

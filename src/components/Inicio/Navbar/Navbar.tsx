@@ -6,7 +6,7 @@ import './Navbar.css';
 
 export default function NavBarra() {
     return (
-        <Navbar expand="lg" className="size">
+        <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
             <Navbar.Brand>
               <img
