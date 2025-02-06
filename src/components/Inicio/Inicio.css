@@ -10,14 +10,16 @@
 }
 
 .inicio-image-container {
+  display: flex;
+  justify-content: center;
   position: relative;
   width: 100%;
   height: 100%;
 }
 
 .inicio-image {
-  width: 100%;
-  height: 100%;
+  width: max-content;
+  height: max-content;
   position: absolute;
   z-index: -1;
   animation: scaleIn 1.5s ease-in-out;
